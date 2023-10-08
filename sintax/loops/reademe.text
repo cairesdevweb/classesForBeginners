@@ -1,0 +1,55 @@
+ for: O for é usado quando você sabe exatamente quantas vezes deseja repetir um bloco de código.
+    for (inicialização; condição; incremento) {
+        // código a ser repetido
+    }
+// Exemplo:
+    for (let i = 0; i < 5; i++) {
+        console.log(i); // Isso imprimirá os números de 0 a 4
+    }
+
+ while: O while executa um bloco de código enquanto uma condição especificada for verdadeira.
+    while (condição) {
+        // código a ser repetido
+    }
+// Exemplo:
+    let o = 0;
+    while (o < 5) {
+        console.log(o); // Isso imprimirá os números de 0 a 4
+        o++;
+    }
+
+ do...while: Similar ao while, mas garante que o bloco de código seja executado pelo menos uma vez, mesmo que a condição seja falsa.
+    do {
+        // código a ser repetido
+    } while (condição);
+// Exemplo:
+    let i = 0;
+    do {
+        console.log(i); // Isso imprimirá os números de 0 a 4
+        i++;
+    } while (i < 5);
+
+ for...of: O for...of é usado para percorrer elementos de objetos iteráveis, como arrays e strings.
+    for (elemento of iterável) {
+        // código a ser executado para cada elemento
+    }
+//Exemplo:
+    const nomes = ['Alice', 'Bob', 'Charlie'];
+    for (const nome of nomes) {
+        console.log(nome); // Isso imprimirá os nomes do array
+    }
+
+ for...in: O for...in é usado para percorrer as propriedades de um objeto.
+    for (propriedade in objeto) {
+        // código a ser executado para cada propriedade
+    }
+// Exemplo:
+    const pessoa = {
+        nome: 'João',
+        idade: 30,
+        cidade: 'São Paulo',
+    };
+
+    for (const prop in pessoa) {
+        console.log(`${prop}: ${pessoa[prop]}`);
+    }

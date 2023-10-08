@@ -1,0 +1,74 @@
+                                              Aulas iniciais para java Script
+
+1 Primeiro faremos todas as linkagens de todas as paginas
+    Temos que linkar o .js sempre antes da tag de fechamento </body> No HTML
+    Temos que linkar o .css no head 
+    Exibição de alertas e imprimir no console
+    Maneiras de comentar o codigo
+
+2 Agora iremos da inicio a introdução do JavaScript
+    o que é variavel?
+    Diferenças entre Variaveis 
+        - var =   funciona dentro de um escopo e fora dela 
+        - let =   funciona dentro de um escopo e nao funciona fora porem o valor pode ser modificado diretamente
+        - const = funciona dentro de um escopo e nao funciona fora porem o valor nao porderá ser modificado
+
+    Tipos de variavel
+        - typeOf()
+            string
+            number
+            Booleano
+            null
+            undefined
+            NaN
+            Objet
+
+    Operadores Matemáticos
+        12 + 13 // Operador de adição
+        44 - 4 // Operador de subtração
+        19 * 3 // Operador de multiplicação
+        57 / 3 // Operador de divisão 
+        ( )    // Operador de Agrupamentos
+        **     // Operador de Potencia
+        %     // Operador de Restos
+
+    O que é array
+        []
+
+    Explique sobre {"", '', ``}
+    
+3 Dando uma leve aprofundada em logica 
+    Operadores lógicos 
+          =         //   Sinal de igual Sozinho representa atribuição de valor
+        7 > 6       // true (verdadeiro) — maior que
+        7 < 6       // false (de falso) — menor que
+        7 >= 6      // true (verdadeiro) — maior ou igual que
+        7 <= 6      // false (de falso) — menor ou igual a
+        7 == 6      // false (de falso) — igualdade
+        7 != 6      // true (verdadeiro) — diferente
+        7 === 6     // false (de falso) — identidade (igualdade estrita)
+        7 !== 6     // true (verdadeiro) — não identidade (diferença estrita) 
+
+    Lógica NOT, AND, e OR
+        - NOT ! significa negação. Transforma verdadeiro em falso, e falso em verdadeiro.
+        - AND && retornará true somente quando ambas as variáveis Booleanas forem verdadeiras.
+        - OR || retornará true quando pelo menos uma das variáveis Booleanas for verdadeira.
+
+    Condicionais 
+        - if: Permite que você execute um bloco de código se uma condição for verdadeira. Você também pode usar else para executar um bloco alternativo se a condição não for atendida.
+        - else if: Usado em conjunto com if para lidar com múltiplas condições.
+        - switch: Permite testar uma expressão contra vários casos e executar código com base no caso correspondente.
+        - Operador ternário: Uma forma concisa de expressar uma condição com duas opções.
+            _ 
+
+
+    Laçoes e loops
+        - for: O for é usado quando você sabe exatamente quantas vezes deseja repetir um bloco de código.
+        - while: O while executa um bloco de código enquanto uma condição especificada for verdadeira.
+        - Do...while: Similar ao while, mas garante que o bloco de código seja executado pelo menos uma vez, mesmo que a condição seja falsa.
+        - for...of: O for...of é usado para percorrer elementos de objetos iteráveis, como arrays e strings.
+        - for...in: O for...in é usado para percorrer as propriedades de um objeto.
+
+4 Declaração e chamada de funções 
+    Funcões 
+        - Em JavaScript, funções são blocos de código que podem ser declarados e chamados para realizar tarefas específicas.

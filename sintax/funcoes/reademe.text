@@ -1,0 +1,26 @@
+                  Declaração de Funções:
+A declaração de uma função envolve especificar seu nome, parâmetros (se houver) e o código a ser executado quando a função for chamada. Uma função é definida usando a palavra-chave function.
+    function nomeDaFuncao(parametro1, parametro2) {
+         // Código a ser executado quando a função é chamada
+    }
+
+nomeDaFuncao: Este é o nome da função, que você pode escolher conforme necessário.
+parametro1 e parametro2: Estes são os parâmetros da função, que são como variáveis que podem receber valores quando a função é chamada.
+O código dentro das chaves {} é o corpo da função, onde você coloca as instruções que deseja executar quando a função é chamada.
+
+                  Chamada de Funções:
+
+Depois de declarar uma função, você pode chamá-la em seu código para executar o código dentro dela. Para chamar uma função, você usa o nome da função seguido por parênteses (). Se a função aceitar parâmetros, você passa os valores dos parâmetros entre os parênteses.
+    nomeDaFuncao(valor1, valor2);
+
+nomeDaFuncao: Este é o nome da função que você deseja chamar.
+valor1 e valor2: Estes são os argumentos que você passa para a função para que ela possa usá-los em seu código.
+    Aqui está um exemplo completo:
+        function saudacao(nome) {
+            console.log(`Olá, ${nome}!`);
+        }
+
+    saudacao('Alice'); // Chamando a função e passando o valor "Alice" como argumento
+    saudacao('Bob'); // Chamando a função novamente com o valor "Bob"
+
+Neste exemplo, a função saudacao recebe um parâmetro nome, que é usado para cumprimentar a pessoa cujo nome é passado como argumento quando a função é chamada.

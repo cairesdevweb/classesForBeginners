@@ -1,0 +1,31 @@
+ if: Permite que você execute um bloco de código se uma condição for verdadeira. Você também pode usar else para executar um bloco alternativo se a condição não for atendida.
+
+    if (condicao) {
+      // código a ser executado se a condição for verdadeira
+    } else {
+      // código a ser executado se a condição não for verdadeira
+    }
+
+ else if: Usado em conjunto com if para lidar com múltiplas condições.
+    if (condicao1) {
+       // código a ser executado se a condição1 for verdadeira
+    } else if (condicao2) {
+      // código a ser executado se a condição2 for verdadeira
+    } else {
+      // código a ser executado se nenhuma das condições anteriores for verdadeira
+    }
+
+// switch: Permite testar uma expressão contra vários casos e executar código com base no caso correspondente.
+  switch (expressao) {
+    case valor1:
+      // código a ser executado se a expressão for igual a valor1
+      break;
+    case valor2:
+      // código a ser executado se a expressão for igual a valor2
+      break;
+    default:
+      // código a ser executado se a expressão não corresponder a nenhum caso
+    }
+
+ Operador ternário: Uma forma concisa de expressar uma condição com duas opções.
+    var resultado = condicao ? valorSeVerdadeiro : valorSeFalso;
