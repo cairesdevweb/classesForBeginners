@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Iniciando com O JavaScript</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Introdução ao JavaScript</h1>
+    <h2 class="title">Iniciando com o DOM e Operadores Matemáticos</h2>
+  </header>
+  <main class="main">
+    <section class="info">
+      <h3 class="section__title">Instruções</h3>
+      <p class="text">Aqui teremos algumas informações necessárias para iniciar o nosso projeto estudantil. A única que está a ser o nosso <a class="link" href="https://github.com/dev-erickydias/javaScriptAulasIniciais" target="_blank">repositório</a> localizado no GitHub.E desta forma, você terá acesso a todas as questões e exercícios Que estão disponíveis?</p>
+    </section>
+    <section class="operadores">
+      <h3 class="section__title">Operadores Matemáticos e Lógicos</h3>
+      <pre class="code__card">
+<code class="code">
+<h5 class="operadores__title">Operadores lógicos </h5>
+              =         //   Sinal de igual Sozinho representa atribuição de valor
+            7 > 6       // true (verdadeiro) — maior que
+            7 < 6       // false (de falso) — menor que
+            7 >= 6      // true (verdadeiro) — maior ou igual que
+            7 <= 6      // false (de falso) — menor ou igual a
+            7 == 6      // false (de falso) — igualdade
+            7 != 6      // true (verdadeiro) — diferente
+            7 === 6     // false (de falso) — identidade (igualdade estrita)
+            7 !== 6     // true (verdadeiro) — não identidade (diferença estrita)</code>
+      </pre>
+      <pre class="code__card">
+        <code class="code">
+          <h5 class="operadores__title">Lógica NOT, AND, e OR</h5>
+          - NOT ! significa negação. Transforma verdadeiro em falso, e falso em verdadeiro.
+          - AND && retornará true somente quando ambas as variáveis Booleanas forem verdadeiras.
+          - OR || retornará true quando pelo menos uma das variáveis Booleanas for verdadeira.</code>
+              </pre>
+
+
+    </section>
+    <section class="initialDom">
+      <h3 class="section__title">Selecionando os elementos com o DOM</h3>
+      <p class="text">Existem maneiras de localizar elemento no HTML, como o <code class="code">querySelector()</code> e o <code class="code">querySelectorAll()</code></p>
+      <p class="text">Agora Iremos selecionar todos os títulos com modificar as cores e fundo, modificar cores, letras e estilos.</p>
+    </section>
+    <section class="funcoes">
+      <h3 class="section__title">Adicionando funções ao meus elementos</h3>
+
+      <h4 class="section__subtitle">Declarando uma Função</h4>
+      <p class="text">A declaração de uma função envolve especificar seu nome, parâmetros (se houver) e o código a ser executado quando a função for chamada. Uma função é definida usando a palavra-chave function.</p>
+        <pre class="code__card">
+         
+ <code class="code">
+            function nomeDaFuncao(parametro1, parametro2) {
+              // Código a ser executado quando a função é chamada
+            }
+</code>
+        </pre>
+
+      <p class="text">nomeDaFuncao: Este é o nome da função, que você pode escolher conforme necessário.
+        parametro1 e parametro2: Estes são os parâmetros da função, que são como variáveis que podem receber valores quando a função é chamada.
+        O código dentro das chaves {} é o corpo da função, onde você coloca as instruções que deseja executar quando a função é chamada.</p>
+      
+      <h4 class="section__subtitle">Chamando a Função</h4>
+      <p class="text">Depois de declarar uma função, você pode chamá-la em seu código para executar o código dentro dela. Para chamar uma função, você usa o nome da função seguido por parênteses (). Se a função aceitar parâmetros, você passa os valores dos parâmetros entre os parênteses.
+      </p>
+      <pre class="code__card">
+        <code class="code">
+          nomeDaFuncao(valor1, valor2);
+</code>
+      </pre>
+    </section>
+  </main>
+
+
+
+  <script src="./index.js"></script>
+</body>
+</html>

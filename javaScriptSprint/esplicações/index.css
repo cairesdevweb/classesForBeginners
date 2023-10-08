@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Isso remove a barra de rolagem horizontal */
+}
+
+/* Estilo do cabeçalho */
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+/* Estilo das seções */
+.section__title {
+  font-size: 24px;
+  width: 100%;
+  margin: 20px;
+}
+
+.section__subtitle {
+  font-size: 18px;
+  margin: 20px 40px 0;
+}
+
+/* Estilo do texto */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 50px 0;
+  width: 80%;
+}
+
+/* Estilo dos links */
+.link {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Estilo do código */
+.code__card {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.operadores__title {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.code {
+  font-family: 'Courier New', monospace;
+  max-width: 100%; /* Define um tamanho máximo para o código */
+  background-color: #f4f4f4;
+  padding: 0px;
+  margin-top: 0;
+  overflow-x: auto;
+}
+
+/* Estilo para tornar a página responsiva */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .section__title {
+    font-size: 20px;
+  }
+
+  .section__subtitle {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}

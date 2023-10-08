@@ -1,0 +1,40 @@
+var nome = 'André';
+let idade = 28;
+const possuiFaculdade = true;
+
+var preco = 20;
+var totalComprado = 5;
+var precoTotal = preco * totalComprado;
+
+// Inválido
+var §nome;
+var function;
+var 1possuiFaculdade;
+
+// Válido
+var $selecionar;
+var _nome;
+var possuiFaculdadeNoExterior;
+
+
+var idade = 28;
+idade = 29;
+
+let preco = 50;
+preco = 25;
+
+const possuiFaculdade = true;
+possuiFaculdade = false;
+// Retorna um erro
+
+
+// Declarar uma variável com o seu nome
+
+// Declarar uma variável com a sua idade
+
+// Declarar uma variável com a sua comida
+// favorita e não atribuir valor
+
+// Atribuir valor a sua comida favorita
+
+// Declarar 5 variáveis diferentes sem valores
