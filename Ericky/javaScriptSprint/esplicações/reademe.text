@@ -45,7 +45,7 @@
         7 >= 6      // true (verdadeiro) — maior ou igual que
         7 <= 6      // false (de falso) — menor ou igual a
         7 == 6      // false (de falso) — igualdade
-        7 != 6      // true (verdadeiro) — diferente
+        6 != 6      // true (verdadeiro) — diferente
         7 === 6     // false (de falso) — identidade (igualdade estrita)
         7 !== 6     // true (verdadeiro) — não identidade (diferença estrita) 
 

@@ -1,0 +1,39 @@
+
+  O Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear as alterações em arquivos e colaborar em projetos de desenvolvimento de software. Seu conceito fundamental é o de controle de versão, que permite acompanhar o histórico de alterações em um conjunto de arquivos ao longo do tempo. Aqui estão alguns conceitos-chave relacionados ao Git:
+
+  _Repositório (Repository): Um repositório Git é um local onde todos os arquivos e histórico de um projeto são armazenados. Existem repositórios locais (no seu computador) e repositórios remotos (em servidores, como o GitHub ou o GitLab).
+
+          Comandos Git
+
+    -Commit: Um commit é uma ação em que você registra uma ou mais alterações em arquivos em seu repositório. Cada commit possui uma mensagem que descreve as alterações feitas, tornando mais fácil entender o que foi feito em cada ponto do histórico.
+
+    -Branch (Ramo): Um branch é uma linha de desenvolvimento separada do repositório principal. Isso permite que você trabalhe em novos recursos ou correções de bugs sem afetar o código principal até que as alterações estejam prontas para serem mescladas.
+
+    -Merge (Mesclagem): A mesclagem é o processo de combinar as alterações de um branch em outro. Isso é feito para incorporar as alterações de um branch de desenvolvimento de volta ao branch principal (geralmente chamado de "master" ou "main").
+
+    -Pull Request (Solicitação de Pull): É uma funcionalidade comum em plataformas como o GitHub. Uma solicitação de pull é uma maneira de propor alterações em um repositório para que outros revisem e mesclagem. É usada principalmente para colaboração em projetos de código aberto e em equipes de desenvolvimento.
+
+    -Clone: Clonar um repositório Git significa criar uma cópia local do repositório remoto em seu próprio computador. Isso permite que você trabalhe em uma versão do projeto localmente.
+
+    -Push (Empurrar): Enviar ou "pushar" é o ato de enviar seus commits locais para um repositório remoto, atualizando assim o histórico do repositório compartilhado com outros colaboradores.
+
+    -Pull (Puxar): Puxar ou "pull" é o ato de obter as alterações de um repositório remoto para o seu repositório local. Isso é feito para manter seu repositório local atualizado com as alterações feitas por outros colaboradores.
+
+    -Conflitos (Conflicts): Conflitos ocorrem quando o Git não consegue mesclar automaticamente as alterações devido a alterações conflitantes nos mesmos arquivos. Nesse caso, você precisa resolver os conflitos manualmente antes de continuar com a mesclagem.
+
+    -O Git é uma ferramenta poderosa que ajuda a gerenciar o desenvolvimento de software de forma eficiente, permitindo o controle preciso do histórico de alterações, facilitando a colaboração em equipe e a rastreabilidade das mudanças ao longo do tempo.
+
+            Comandos  Terminal De Comandos
+
+    _ pwd — exibe o endereço da pasta em que você está.
+    _ ls — lista os arquivos da pasta atual.
+    _ cd first-project — vai para a pasta first-project.
+    _ cd first-project/images — vai para a pasta images da pasta first-project.
+    _ cd .. —vai para a pasta images da pasta first-project.
+    _ cd ~ — vai para o diretório inicial (/Users/estudante_do_TripleTen no nosso caso).
+    _ mkdir second-project — cria uma pasta com o nome second-project na pasta atual.
+    _ rm about.html — exclui about.html.
+    _ rmdir images — exclui a pasta images se estiver vazia.
+    _ rm -r second-project — exclui a pasta second-project e tudo que há nela.
+    _ touch index.html — cria o arquivo index.html na pasta atual.
+    _ touch index.html style.css script.js — cria vários arquivos; seus nomes são separados por espaços.
