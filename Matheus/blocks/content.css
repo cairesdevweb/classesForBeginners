@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 680px;
+    height: 350px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 45px;
+}
+
+.text-content {
+    width: 550px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 80px;
+}
